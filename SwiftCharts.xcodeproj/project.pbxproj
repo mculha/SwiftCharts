@@ -11,6 +11,12 @@
 		E9876A4B2ACDFCB800865ABA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A4A2ACDFCB800865ABA /* ContentView.swift */; };
 		E9876A4D2ACDFCBA00865ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9876A4C2ACDFCBA00865ABA /* Assets.xcassets */; };
 		E9876A502ACDFCBA00865ABA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9876A4F2ACDFCBA00865ABA /* Preview Assets.xcassets */; };
+		E9876A602ACF4EBE00865ABA /* AreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A5F2ACF4EBE00865ABA /* AreaChartView.swift */; };
+		E9876A622ACF4ED100865ABA /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A612ACF4ED100865ABA /* LineChartView.swift */; };
+		E9876A642ACF4EE700865ABA /* PointChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A632ACF4EE700865ABA /* PointChartView.swift */; };
+		E9876A662ACF4EFC00865ABA /* RectangleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A652ACF4EFC00865ABA /* RectangleChartView.swift */; };
+		E9876A682ACF4F0E00865ABA /* RuleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A672ACF4F0E00865ABA /* RuleChartView.swift */; };
+		E9876A6A2ACF4F1D00865ABA /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A692ACF4F1D00865ABA /* BarChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		E9876A4A2ACDFCB800865ABA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9876A4C2ACDFCBA00865ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9876A4F2ACDFCBA00865ABA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9876A5F2ACF4EBE00865ABA /* AreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartView.swift; sourceTree = "<group>"; };
+		E9876A612ACF4ED100865ABA /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		E9876A632ACF4EE700865ABA /* PointChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChartView.swift; sourceTree = "<group>"; };
+		E9876A652ACF4EFC00865ABA /* RectangleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleChartView.swift; sourceTree = "<group>"; };
+		E9876A672ACF4F0E00865ABA /* RuleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleChartView.swift; sourceTree = "<group>"; };
+		E9876A692ACF4F1D00865ABA /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 		E9876A472ACDFCB800865ABA /* SwiftCharts */ = {
 			isa = PBXGroup;
 			children = (
+				E9876A582ACF4D1600865ABA /* Screen */,
 				E9876A482ACDFCB800865ABA /* SwiftChartsApp.swift */,
 				E9876A4A2ACDFCB800865ABA /* ContentView.swift */,
 				E9876A4C2ACDFCBA00865ABA /* Assets.xcassets */,
@@ -65,6 +78,67 @@
 				E9876A4F2ACDFCBA00865ABA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9876A582ACF4D1600865ABA /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E9876A5E2ACF4D3500865ABA /* Area */,
+				E9876A5D2ACF4D3100865ABA /* Line */,
+				E9876A5C2ACF4D2E00865ABA /* Point */,
+				E9876A5B2ACF4D2B00865ABA /* Rectangle */,
+				E9876A5A2ACF4D2400865ABA /* Rule */,
+				E9876A592ACF4D1C00865ABA /* Bar */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E9876A592ACF4D1C00865ABA /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				E9876A692ACF4F1D00865ABA /* BarChartView.swift */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		E9876A5A2ACF4D2400865ABA /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				E9876A672ACF4F0E00865ABA /* RuleChartView.swift */,
+			);
+			path = Rule;
+			sourceTree = "<group>";
+		};
+		E9876A5B2ACF4D2B00865ABA /* Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				E9876A652ACF4EFC00865ABA /* RectangleChartView.swift */,
+			);
+			path = Rectangle;
+			sourceTree = "<group>";
+		};
+		E9876A5C2ACF4D2E00865ABA /* Point */ = {
+			isa = PBXGroup;
+			children = (
+				E9876A632ACF4EE700865ABA /* PointChartView.swift */,
+			);
+			path = Point;
+			sourceTree = "<group>";
+		};
+		E9876A5D2ACF4D3100865ABA /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				E9876A612ACF4ED100865ABA /* LineChartView.swift */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		E9876A5E2ACF4D3500865ABA /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				E9876A5F2ACF4EBE00865ABA /* AreaChartView.swift */,
+			);
+			path = Area;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +212,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9876A4B2ACDFCB800865ABA /* ContentView.swift in Sources */,
+				E9876A662ACF4EFC00865ABA /* RectangleChartView.swift in Sources */,
+				E9876A602ACF4EBE00865ABA /* AreaChartView.swift in Sources */,
+				E9876A682ACF4F0E00865ABA /* RuleChartView.swift in Sources */,
 				E9876A492ACDFCB800865ABA /* SwiftChartsApp.swift in Sources */,
+				E9876A642ACF4EE700865ABA /* PointChartView.swift in Sources */,
+				E9876A622ACF4ED100865ABA /* LineChartView.swift in Sources */,
+				E9876A6A2ACF4F1D00865ABA /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
