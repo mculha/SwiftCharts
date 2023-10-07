@@ -17,6 +17,8 @@
 		E9876A662ACF4EFC00865ABA /* RectangleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A652ACF4EFC00865ABA /* RectangleChartView.swift */; };
 		E9876A682ACF4F0E00865ABA /* RuleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A672ACF4F0E00865ABA /* RuleChartView.swift */; };
 		E9876A6A2ACF4F1D00865ABA /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A692ACF4F1D00865ABA /* BarChartView.swift */; };
+		E9876A6C2AD199EC00865ABA /* AreaChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A6B2AD199EC00865ABA /* AreaChartViewModel.swift */; };
+		E9876A6E2AD19A1100865ABA /* BuildingPermit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A6D2AD19A1100865ABA /* BuildingPermit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		E9876A652ACF4EFC00865ABA /* RectangleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleChartView.swift; sourceTree = "<group>"; };
 		E9876A672ACF4F0E00865ABA /* RuleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleChartView.swift; sourceTree = "<group>"; };
 		E9876A692ACF4F1D00865ABA /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		E9876A6B2AD199EC00865ABA /* AreaChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartViewModel.swift; sourceTree = "<group>"; };
+		E9876A6D2AD19A1100865ABA /* BuildingPermit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingPermit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				E9876A5F2ACF4EBE00865ABA /* AreaChartView.swift */,
+				E9876A6B2AD199EC00865ABA /* AreaChartViewModel.swift */,
+				E9876A6D2AD19A1100865ABA /* BuildingPermit.swift */,
 			);
 			path = Area;
 			sourceTree = "<group>";
@@ -212,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9876A4B2ACDFCB800865ABA /* ContentView.swift in Sources */,
+				E9876A6C2AD199EC00865ABA /* AreaChartViewModel.swift in Sources */,
+				E9876A6E2AD19A1100865ABA /* BuildingPermit.swift in Sources */,
 				E9876A662ACF4EFC00865ABA /* RectangleChartView.swift in Sources */,
 				E9876A602ACF4EBE00865ABA /* AreaChartView.swift in Sources */,
 				E9876A682ACF4F0E00865ABA /* RuleChartView.swift in Sources */,
