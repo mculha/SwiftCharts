@@ -11,14 +11,15 @@ import Charts
 struct AreaChartView: View {
     
     @State private var viewModel: AreaChartViewModel = .init()
-    
+
     var body: some View {
         VStack {
-            Chart(viewModel.permits) { permit in
-                AreaMark(x: .value("Date", permit.date),
-                         y: .value("Amount", permit.numberOfPermits))
-                .foregroundStyle(by: .value("Sale Item", permit.region))
-                
+            Chart {
+                ForEach(viewModel.permits) { permit in
+                    AreaMark(x: .value("Date", permit.date),
+                             y: .value("Amount", permit.numberOfPermits))
+                    .foregroundStyle(by: .value("Region", permit.region))
+                }
             }
             .frame(height: 400)
         }
