@@ -6,8 +6,11 @@
 //
 
 import Foundation
+import Charts
 
 @Observable final class AreaChartViewModel {
+    
+    var stacking: MarkStackingMethod = .standard
     
     @ObservationIgnored
     let permits: [BuildingPermit] = [
