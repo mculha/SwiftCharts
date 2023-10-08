@@ -14,10 +14,12 @@ struct LineChartView: View {
     
     var body: some View {
         VStack {
-            Chart(viewModel.permits) { permit in
-                LineMark(x: .value("Year", permit.date),
-                         y: .value("Number of Permits", permit.numberOfPermits))
-                .foregroundStyle(by: .value("Region", permit.region))
+            Chart {
+                ForEach(viewModel.permits) { permit in
+                    LineMark(x: .value("Year", permit.date),
+                             y: .value("Number of Permits", permit.numberOfPermits))
+                    .foregroundStyle(by: .value("Region", permit.region))
+                }
             }
             .frame(height: 400)
             .padding()
