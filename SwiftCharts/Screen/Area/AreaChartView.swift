@@ -17,7 +17,7 @@ struct AreaChartView: View {
             Chart {
                 ForEach(viewModel.permits) { permit in
                     AreaMark(x: .value("Date", permit.date),
-                             y: .value("Amount", permit.numberOfPermits),
+                             y: .value("Number of Permits", permit.numberOfPermits),
                              stacking: viewModel.stacking
                     )
                     .foregroundStyle(by: .value("Region", permit.region))
