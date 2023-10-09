@@ -21,6 +21,8 @@
 		E9876A6E2AD19A1100865ABA /* BuildingPermit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A6D2AD19A1100865ABA /* BuildingPermit.swift */; };
 		E9876A702AD2D61C00865ABA /* LineChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A6F2AD2D61C00865ABA /* LineChartViewModel.swift */; };
 		E9876A722AD3122700865ABA /* PointChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A712AD3122700865ABA /* PointChartViewModel.swift */; };
+		E9876A742AD3130800865ABA /* RectangleChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A732AD3130800865ABA /* RectangleChartViewModel.swift */; };
+		E9876A762AD48E5000865ABA /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A752AD48E5000865ABA /* Stock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		E9876A6D2AD19A1100865ABA /* BuildingPermit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingPermit.swift; sourceTree = "<group>"; };
 		E9876A6F2AD2D61C00865ABA /* LineChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewModel.swift; sourceTree = "<group>"; };
 		E9876A712AD3122700865ABA /* PointChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChartViewModel.swift; sourceTree = "<group>"; };
+		E9876A732AD3130800865ABA /* RectangleChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleChartViewModel.swift; sourceTree = "<group>"; };
+		E9876A752AD48E5000865ABA /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				E9876A652ACF4EFC00865ABA /* RectangleChartView.swift */,
+				E9876A732AD3130800865ABA /* RectangleChartViewModel.swift */,
+				E9876A752AD48E5000865ABA /* Stock.swift */,
 			);
 			path = Rectangle;
 			sourceTree = "<group>";
@@ -229,9 +235,11 @@
 				E9876A662ACF4EFC00865ABA /* RectangleChartView.swift in Sources */,
 				E9876A722AD3122700865ABA /* PointChartViewModel.swift in Sources */,
 				E9876A602ACF4EBE00865ABA /* AreaChartView.swift in Sources */,
+				E9876A742AD3130800865ABA /* RectangleChartViewModel.swift in Sources */,
 				E9876A682ACF4F0E00865ABA /* RuleChartView.swift in Sources */,
 				E9876A492ACDFCB800865ABA /* SwiftChartsApp.swift in Sources */,
 				E9876A702AD2D61C00865ABA /* LineChartViewModel.swift in Sources */,
+				E9876A762AD48E5000865ABA /* Stock.swift in Sources */,
 				E9876A642ACF4EE700865ABA /* PointChartView.swift in Sources */,
 				E9876A622ACF4ED100865ABA /* LineChartView.swift in Sources */,
 				E9876A6A2ACF4F1D00865ABA /* BarChartView.swift in Sources */,
