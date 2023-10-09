@@ -6,10 +6,23 @@
 //
 
 import SwiftUI
+import Charts
 
 struct BarChartView: View {
+    
+    @State private var viewModel: BarChartViewModel = .init()
+    
     var body: some View {
-        Text("Bar Chart View")
+        VStack {
+            Chart {
+                ForEach(Array(viewModel.numberOfPermitsByRegion), id: \.key) { region, numberOfPermits in
+                    BarMark(x: .value("Region", region),
+                            y: .value("Total Number of Permits", numberOfPermits))
+                }
+            }
+            .frame(height: 400)
+            .padding()
+        }
     }
 }
 

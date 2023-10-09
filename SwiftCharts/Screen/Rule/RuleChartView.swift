@@ -10,7 +10,7 @@ import Charts
 
 struct RuleChartView: View {
     
-    private let viewModel: RuleChartViewModel = .init()
+    @State private var viewModel: RuleChartViewModel = .init()
     
     var body: some View {
         VStack {

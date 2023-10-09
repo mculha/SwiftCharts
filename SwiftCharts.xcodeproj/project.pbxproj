@@ -24,6 +24,7 @@
 		E9876A742AD3130800865ABA /* RectangleChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A732AD3130800865ABA /* RectangleChartViewModel.swift */; };
 		E9876A762AD48E5000865ABA /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A752AD48E5000865ABA /* Stock.swift */; };
 		E9876A782AD4916B00865ABA /* RuleChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A772AD4916B00865ABA /* RuleChartViewModel.swift */; };
+		E9876A7A2AD4959800865ABA /* BarChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A792AD4959800865ABA /* BarChartViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		E9876A732AD3130800865ABA /* RectangleChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleChartViewModel.swift; sourceTree = "<group>"; };
 		E9876A752AD48E5000865ABA /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		E9876A772AD4916B00865ABA /* RuleChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleChartViewModel.swift; sourceTree = "<group>"; };
+		E9876A792AD4959800865ABA /* BarChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				E9876A692ACF4F1D00865ABA /* BarChartView.swift */,
+				E9876A792AD4959800865ABA /* BarChartViewModel.swift */,
 			);
 			path = Bar;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				E9876A782AD4916B00865ABA /* RuleChartViewModel.swift in Sources */,
 				E9876A6E2AD19A1100865ABA /* BuildingPermit.swift in Sources */,
 				E9876A662ACF4EFC00865ABA /* RectangleChartView.swift in Sources */,
+				E9876A7A2AD4959800865ABA /* BarChartViewModel.swift in Sources */,
 				E9876A722AD3122700865ABA /* PointChartViewModel.swift in Sources */,
 				E9876A602ACF4EBE00865ABA /* AreaChartView.swift in Sources */,
 				E9876A742AD3130800865ABA /* RectangleChartViewModel.swift in Sources */,
