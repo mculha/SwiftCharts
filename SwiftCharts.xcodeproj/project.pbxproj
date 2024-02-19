@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E954B3DC2B83EB4800DBC00C /* SectorChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954B3DB2B83EB4800DBC00C /* SectorChartViewModel.swift */; };
+		E954B3DE2B83EB6800DBC00C /* SectorChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954B3DD2B83EB6800DBC00C /* SectorChartView.swift */; };
 		E9876A492ACDFCB800865ABA /* SwiftChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A482ACDFCB800865ABA /* SwiftChartsApp.swift */; };
 		E9876A4B2ACDFCB800865ABA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9876A4A2ACDFCB800865ABA /* ContentView.swift */; };
 		E9876A4D2ACDFCBA00865ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9876A4C2ACDFCBA00865ABA /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E954B3DB2B83EB4800DBC00C /* SectorChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChartViewModel.swift; sourceTree = "<group>"; };
+		E954B3DD2B83EB6800DBC00C /* SectorChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChartView.swift; sourceTree = "<group>"; };
 		E9876A452ACDFCB800865ABA /* SwiftCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9876A482ACDFCB800865ABA /* SwiftChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsApp.swift; sourceTree = "<group>"; };
 		E9876A4A2ACDFCB800865ABA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E954B3DA2B83EB2500DBC00C /* Sector */ = {
+			isa = PBXGroup;
+			children = (
+				E954B3DB2B83EB4800DBC00C /* SectorChartViewModel.swift */,
+				E954B3DD2B83EB6800DBC00C /* SectorChartView.swift */,
+			);
+			path = Sector;
+			sourceTree = "<group>";
+		};
 		E9876A3C2ACDFCB800865ABA = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		E9876A582ACF4D1600865ABA /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E954B3DA2B83EB2500DBC00C /* Sector */,
 				E9876A5E2ACF4D3500865ABA /* Area */,
 				E9876A5D2ACF4D3100865ABA /* Line */,
 				E9876A5C2ACF4D2E00865ABA /* Point */,
@@ -242,6 +256,7 @@
 				E9876A662ACF4EFC00865ABA /* RectangleChartView.swift in Sources */,
 				E9876A7A2AD4959800865ABA /* BarChartViewModel.swift in Sources */,
 				E9876A722AD3122700865ABA /* PointChartViewModel.swift in Sources */,
+				E954B3DC2B83EB4800DBC00C /* SectorChartViewModel.swift in Sources */,
 				E9876A602ACF4EBE00865ABA /* AreaChartView.swift in Sources */,
 				E9876A742AD3130800865ABA /* RectangleChartViewModel.swift in Sources */,
 				E9876A682ACF4F0E00865ABA /* RuleChartView.swift in Sources */,
@@ -251,6 +266,7 @@
 				E9876A642ACF4EE700865ABA /* PointChartView.swift in Sources */,
 				E9876A622ACF4ED100865ABA /* LineChartView.swift in Sources */,
 				E9876A6A2ACF4F1D00865ABA /* BarChartView.swift in Sources */,
+				E954B3DE2B83EB6800DBC00C /* SectorChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

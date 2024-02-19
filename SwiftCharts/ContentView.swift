@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 15) {
+                NavigationLink(destination: SectorChartView()) { ActionButton(title: "Sector", color: .purple) }
                 NavigationLink(destination: AreaChartView()) { ActionButton(title: "Area", color: .cyan) }
                 NavigationLink(destination: LineChartView()) { ActionButton(title: "Line", color: .indigo) }
                 NavigationLink(destination: PointChartView()) { ActionButton(title: "Point", color: .teal) }
