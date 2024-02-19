@@ -10,6 +10,9 @@ With Swift Charts, you can build effective and customizable charts with minimal 
 We can create different varieties of Charts using the framework. There are several types of Charts; Area, Line, Point, Rectangle, Rule, and Bar.
 These Charts are easy to use and are customizable with ease. I am adding some screenshots about the practice of Charts.
 
+Sector Chart<br />
+<img src="https://github.com/mculha/SwiftCharts/assets/20414142/fd2828da-6304-4ce0-b743-0d467f18b0c2" height="300">
+
 Area Chart<br />
 <img src="https://github.com/mculha/SwiftCharts/assets/20414142/fc452b02-d8bd-457b-846c-8c859166dd78" height="300">
 
