@@ -16,8 +16,8 @@ struct SectorChartView: View {
         VStack {
             Chart(viewModel.permits, id: \.id) { permit in
                 SectorMark(angle: .value("Value", permit.numberOfPermits),
-                           innerRadius: .ratio(0.0065),
-                           outerRadius: .inset(10),
+                           innerRadius: .ratio(0.5),
+                           outerRadius: .inset(0),
                            angularInset: 0.75
                 )
                 .cornerRadius(4)
@@ -27,7 +27,21 @@ struct SectorChartView: View {
                     Text(permit.region)
                         .foregroundStyle(.white)
                         .fontWeight(.bold)
+                        .padding(.leading)
                 }
+            }
+            .chartBackground(alignment: .center) { chartProxy in
+                VStack {
+                    Image(.permit)
+                        .resizable()
+                        .frame(width: 80, height: 80)
+                    
+                    Text("Regions of\nPermits")
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 12, weight: .bold))
+                        .foregroundStyle(.black)
+                }
+                
             }
             .frame(height: 400)
         }
