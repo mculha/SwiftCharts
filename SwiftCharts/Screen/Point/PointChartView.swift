@@ -15,14 +15,13 @@ struct PointChartView: View {
     var body: some View {
         VStack {
             Chart {
-                ForEach(viewModel.permits) { permit in
-                    PointMark(x: .value("Year", permit.date),
-                             y: .value("Number of Permits", permit.numberOfPermits))
-                    .foregroundStyle(by: .value("Region", permit.region))
-                    .symbol(by: .value("Region", permit.region))
-                }
+                PointPlot(viewModel.permits, x: .value("Year", \.date), y: .value("Number of Permits", \.numberOfPermits))
+                    .foregroundStyle(by: .value("Region", \.region))
+//                    .symbolSize(by: .value("Number of Permits", \.numberOfPermits))
+                    .symbol(by: .value("Region", \.region))
+
             }
-            .frame(height: 400)
+            .frame(height: 600)
             .padding()
         }
     }
